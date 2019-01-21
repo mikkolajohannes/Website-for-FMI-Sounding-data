@@ -1,6 +1,6 @@
 Johannes Mikkola, 8/2018
-CGI - Python based webpage
-FMI radiosounding data to Skew-T or printed data
+
+CGI - Python based webpage to create Skew-T plot using FMI Open Radiosounding data.
 
 how to use:
 Python script fmi2skewt.py must be executable

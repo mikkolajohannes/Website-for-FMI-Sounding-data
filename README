@@ -1,0 +1,11 @@
+Johannes Mikkola, 8/2018
+CGI - Python based webpage
+FMI radiosounding data to Skew-T or printed data
+
+how to use:
+Python script fmi2skewt.py must be executable
+place python script in /cgi-bin/ and create empty directory /figures/ . Run server by: python -m CGIHTTPServer
+
+notable information:
+*FMI open data available ~2015->
+*in 2018, FMI open data didn't include pressure levels of sounding measurements so pressure is calculated by function: height2pressure
